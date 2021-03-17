@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>demo</artifactId>
-	<version>1.0 SNAPSHOT</version>
+	<version>1.0-SNAPSHOT</version>
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -54,11 +54,11 @@
 	<distributionManagement>
     <snapshotRepository>
       <id>nexusdeploymentrepo</id>
-      <url>http://34.66.14.230:8081/repository/maven-snapshots/</url>
+      <url>http://34.122.159.252:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
 	<repository>
 	  <id>nexusdeploymentrepo</id>
-      <url>http://34.66.14.230:8081/repository/maven-releases/</url>
+      <url>http://34.122.159.252:8081/repository/maven-releases/</url>
     </repository>
   
   </distributionManagement>
